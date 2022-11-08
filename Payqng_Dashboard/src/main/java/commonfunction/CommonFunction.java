@@ -56,6 +56,7 @@ public class CommonFunction extends ExtentReport {
 			System.setProperty("webdriver.chrome.driver", driverlocation);
 			driver=new ChromeDriver();
 			//Test
+			//Final
 
 		}else if (browser.equals("firefox")) {
 			System.setProperty("webdriver.gecko.driver", driverlocation);
